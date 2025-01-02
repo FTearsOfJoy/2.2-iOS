@@ -11,7 +11,7 @@ async function main() {
     console.log("2.2 maker for iOS - https://dimisaio.be\n");
 
     if (!fs.existsSync("base.ipa")) {
-        await dl("https://filebin.net/dnlkdr13a639mmnj/base.ipa////////////////", 'base.ipa');
+        await dl("https://armconverter.com/decryptedappstore/download/1112307917/com.robtop.geometrydashworld/2.21.5?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjExNjc4OTIyLCJpYXQiOjE3MzU4NDc5NzksImV4cCI6MTczNTg1ODc3OSwiYXBwaWQiOjExMTIzMDc5MTcsImFwcHZlciI6IjIuMjEuNSJ9.cKZ7Fq6f3hAj2HrLMT8JB5NNL6kFs0VvQ9rLQrIY07Q", 'base.ipa');
     }
 
     var name = process.env.name ? process.env.name : prompt("Enter GDPS name: ");
